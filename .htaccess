@@ -1,0 +1,8 @@
+RewriteEngine On  
+
+DirectoryIndex main.php
+  
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f  
+
+RewriteRule ^(.*)$ ./main.php?route=$1

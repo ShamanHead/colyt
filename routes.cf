@@ -1,0 +1,13 @@
+{
+	
+	How its works.
+	Some text;
+	
+	name:empty;
+	template : site/index.php;
+	controllers : index;
+	
+	If your set name equals "empty", link to this route would be:
+	somesite.com/
+	
+}
